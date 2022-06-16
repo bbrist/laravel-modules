@@ -1,8 +1,8 @@
 <?php
 
-namespace Async\Modules\Commands;
+namespace Asoft\Modules\Commands;
 
-use Async\Modules\Facades\Module;
+use Asoft\Modules\Facades\Module;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Str;
 

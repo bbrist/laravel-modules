@@ -1,8 +1,8 @@
 <?php
 
-namespace Async\Modules\Facades;
+namespace Asoft\Modules\Facades;
 
-use Async\Modules\ModuleService;
+use Asoft\Modules\ModuleService;
 use Illuminate\Support\Facades\Facade;
 
 /**

@@ -1,8 +1,8 @@
 <?php
 
-namespace Async\Modules;
+namespace Asoft\Modules;
 
-use Async\Modules\Facades\Module;
+use Asoft\Modules\Facades\Module;
 use Illuminate\Console\Application as Artisan;
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;

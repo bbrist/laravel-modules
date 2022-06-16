@@ -1,9 +1,10 @@
 {
-  "name": "async/laravel-modules",
+  "name": "asoft/laravel-modules",
   "version": "0.1.0",
   "description": "Manage Laravel Modules System",
   "keywords": [
     "async",
+    "asoft",
     "laravel-modules",
     "modules",
     "async-software",
@@ -11,7 +12,7 @@
     "async-software-solutions",
     "laravel"
   ],
-  "homepage": "https://gitlab.com/async-solutions/laravel-modules",
+  "homepage": "https://github.com/bbrist/laravel-modules",
   "license": "MIT",
   "authors": [
     {
@@ -35,18 +36,18 @@
   },
   "autoload": {
     "psr-4": {
-      "Async\\Modules\\": "src/"
+      "Asoft\\Modules\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Async\\Modules\\Tests\\": "tests"
+      "Asoft\\Modules\\Tests\\": "tests"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Async\\Modules\\ServiceProvider"
+        "Asoft\\Modules\\ServiceProvider"
       ]
     }
   },

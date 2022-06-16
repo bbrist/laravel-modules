@@ -1,8 +1,8 @@
 <?php
 
-namespace Async\Modules;
+namespace Asoft\Modules;
 
-use Async\Modules\Facades\Module;
+use Asoft\Modules\Facades\Module;
 
 class ClearCompiledCommand extends \Illuminate\Foundation\Console\ClearCompiledCommand
 {

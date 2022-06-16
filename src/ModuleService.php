@@ -1,6 +1,6 @@
 <?php
 
-namespace Async\Modules;
+namespace Asoft\Modules;
 
 use Illuminate\Support\Env;
 use Illuminate\Support\Facades\App;

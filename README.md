@@ -66,7 +66,7 @@ Replace `Modules\\` and/or `modules/` depending on your configuration in `config
 
 ## Using Module Commands
 
-To make use of the `module:` commands provided by this package, you'll need to add the `Async\Modules\ModulesServiceProvider` 
+To make use of the `module:` commands provided by this package, you'll need to add the `Asoft\Modules\ModulesServiceProvider` 
 to the list of Service Providers in `config/app.php`.
 
 ### Creating Modules

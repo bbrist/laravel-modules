@@ -1,12 +1,12 @@
 <?php
 
-namespace Async\Modules;
+namespace Asoft\Modules;
 
-use Async\Modules\Commands\ModuleConsoleMakeCommand;
-use Async\Modules\Commands\ModuleControllerMakeCommand;
-use Async\Modules\Commands\ModuleInitCommand;
-use Async\Modules\Commands\ModuleModelMakeCommand;
-use Async\Modules\Commands\ModuleProviderMakeCommand;
+use Asoft\Modules\Commands\ModuleConsoleMakeCommand;
+use Asoft\Modules\Commands\ModuleControllerMakeCommand;
+use Asoft\Modules\Commands\ModuleInitCommand;
+use Asoft\Modules\Commands\ModuleModelMakeCommand;
+use Asoft\Modules\Commands\ModuleProviderMakeCommand;
 use Illuminate\Console\Application as Artisan;
 use Illuminate\Contracts\Support\DeferrableProvider;
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;

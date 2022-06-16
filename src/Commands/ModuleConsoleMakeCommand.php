@@ -1,6 +1,6 @@
 <?php
 
-namespace Async\Modules\Commands;
+namespace Asoft\Modules\Commands;
 
 use Illuminate\Foundation\Console\ConsoleMakeCommand;
 use Illuminate\Support\Facades\Config;
