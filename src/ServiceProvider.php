@@ -1,8 +1,8 @@
 <?php
 
-namespace Asoft\Modules;
+namespace Bbrist\Modules;
 
-use Asoft\Modules\Facades\Module;
+use Bbrist\Modules\Facades\Module;
 use Illuminate\Console\Application as Artisan;
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;

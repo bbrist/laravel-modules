@@ -1,6 +1,6 @@
 <?php
 
-namespace Asoft\Modules\Commands;
+namespace Bbrist\Modules\Commands;
 
 use Illuminate\Routing\Console\ControllerMakeCommand;
 use Illuminate\Support\Facades\Config;

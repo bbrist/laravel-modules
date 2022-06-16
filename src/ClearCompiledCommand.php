@@ -1,8 +1,8 @@
 <?php
 
-namespace Asoft\Modules;
+namespace Bbrist\Modules;
 
-use Asoft\Modules\Facades\Module;
+use Bbrist\Modules\Facades\Module;
 
 class ClearCompiledCommand extends \Illuminate\Foundation\Console\ClearCompiledCommand
 {

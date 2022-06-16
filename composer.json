@@ -1,10 +1,9 @@
 {
-  "name": "asoft/laravel-modules",
+  "name": "bbrist/laravel-modules",
   "version": "0.1.0",
   "description": "Manage Laravel Modules System",
   "keywords": [
     "async",
-    "asoft",
     "laravel-modules",
     "modules",
     "async-software",
@@ -36,18 +35,18 @@
   },
   "autoload": {
     "psr-4": {
-      "Asoft\\Modules\\": "src/"
+      "Bbrist\\Modules\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Asoft\\Modules\\Tests\\": "tests"
+      "Bbrist\\Modules\\Tests\\": "tests"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Asoft\\Modules\\ServiceProvider"
+        "Bbrist\\Modules\\ServiceProvider"
       ]
     }
   },

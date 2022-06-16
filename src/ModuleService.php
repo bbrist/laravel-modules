@@ -1,6 +1,6 @@
 <?php
 
-namespace Asoft\Modules;
+namespace Bbrist\Modules;
 
 use Illuminate\Support\Env;
 use Illuminate\Support\Facades\App;

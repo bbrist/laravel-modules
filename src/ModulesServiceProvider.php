@@ -1,12 +1,12 @@
 <?php
 
-namespace Asoft\Modules;
+namespace Bbrist\Modules;
 
-use Asoft\Modules\Commands\ModuleConsoleMakeCommand;
-use Asoft\Modules\Commands\ModuleControllerMakeCommand;
-use Asoft\Modules\Commands\ModuleInitCommand;
-use Asoft\Modules\Commands\ModuleModelMakeCommand;
-use Asoft\Modules\Commands\ModuleProviderMakeCommand;
+use Bbrist\Modules\Commands\ModuleConsoleMakeCommand;
+use Bbrist\Modules\Commands\ModuleControllerMakeCommand;
+use Bbrist\Modules\Commands\ModuleInitCommand;
+use Bbrist\Modules\Commands\ModuleModelMakeCommand;
+use Bbrist\Modules\Commands\ModuleProviderMakeCommand;
 use Illuminate\Console\Application as Artisan;
 use Illuminate\Contracts\Support\DeferrableProvider;
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;

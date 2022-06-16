@@ -1,8 +1,8 @@
 <?php
 
-namespace Asoft\Modules\Facades;
+namespace Bbrist\Modules\Facades;
 
-use Asoft\Modules\ModuleService;
+use Bbrist\Modules\ModuleService;
 use Illuminate\Support\Facades\Facade;
 
 /**

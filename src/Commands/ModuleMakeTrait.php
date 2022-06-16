@@ -1,8 +1,8 @@
 <?php
 
-namespace Asoft\Modules\Commands;
+namespace Bbrist\Modules\Commands;
 
-use Asoft\Modules\Facades\Module;
+use Bbrist\Modules\Facades\Module;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Str;
 
