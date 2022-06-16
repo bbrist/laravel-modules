@@ -1,0 +1,62 @@
+{
+  "name": "async/laravel-modules",
+  "version": "0.1.0",
+  "description": "Manage Laravel Modules System",
+  "keywords": [
+    "async",
+    "laravel-modules",
+    "modules",
+    "async-software",
+    "async-solutions",
+    "async-software-solutions",
+    "laravel"
+  ],
+  "homepage": "https://gitlab.com/async-solutions/laravel-modules",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Brett Brist",
+      "email": "brettbrist@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "laravel/framework": "^9.0",
+    "symfony/finder": "^v6.0"
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^1.5.6",
+    "pestphp/pest": "^1.20"
+  },
+  "scripts": {
+    "analyse": "vendor/bin/phpstan analyse",
+    "format": "vendor/bin/php-cs-fixer fix --allow-risky=yes",
+    "test": "vendor/bin/pest"
+  },
+  "autoload": {
+    "psr-4": {
+      "Async\\Modules\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Async\\Modules\\Tests\\": "tests"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Async\\Modules\\ServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true,
+    "allow-plugins": {
+      "pestphp/pest-plugin": true,
+      "phpstan/extension-installer": true
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

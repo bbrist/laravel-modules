@@ -1,0 +1,9 @@
+<?php
+
+use Illuminate\Support\Facades\Route;
+
+Route::group(['namespace' => 'DummyNamespace'], function () {
+
+    // Add Module Routes Here
+
+});
